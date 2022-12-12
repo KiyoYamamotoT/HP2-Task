@@ -1,0 +1,887 @@
+@charset "UTF-8";
+
+.top-wrapper{
+   
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background: url(../img/fuji.png) no-repeat center;
+  background-size: cover;
+ 
+}
+.top-wrapper__inner{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+   
+}
+
+.top-wrapper__left {
+  width: 50%;
+  position: relative;
+
+}
+
+.top-wrapper__left__circle {
+  width:85%;
+  height:100%;
+  line-height: 100px;
+  background-color: rgb(245, 110, 110);
+  border-radius:50%;
+  margin-top: 30%;
+  margin-left: 20%;
+}
+
+.top-wrapper__left__ttl h1 {
+  width: 50%;
+  font-size: 3.1rem;
+  color: black;
+  text-shadow: 3px 3px  white, -3px  -3px white, -3px 3px white, 3px -3px white, 3px 0px white, -3px 0px white;
+  margin-top: -20%;
+  margin-left: 15%;
+  position: absolute;
+  transform:translate(50%,-50%);
+
+}
+.top-wrapper__right {
+  width: 50%;
+}
+.top-wrapper__right__circle {
+    width: 85%;
+    height:100%;
+    line-height: 100px;
+    background-color: rgb(92, 41, 120);
+    border-radius: 50%;
+    margin-top:38%; 
+    transform:translate(-10%, 5%) 
+}
+
+.top-wrapper__right__ttl h2 {
+  font-size: 1.8rem;
+  letter-spacing: 2px;
+  font-weight: 70;
+  color: rgb(246, 242, 242);
+  margin-top: -12%;
+  position: absolute;
+  transform: translate( 30%, -50%);
+}
+
+.top-wrapper__right__ttl h3 {
+  font-size: 2rem;
+  font-weight: 100;
+  color: white;
+  margin-top: -6%;
+  position: absolute;
+  transform: translate(5%, -40%);
+}
+
+.about-wrapper {
+  width: 100%;
+}
+
+.about-wrapper .inner {
+  width: 80%;
+}
+
+.about::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height:60%;
+  margin-top:10%;
+  margin-bottom: 8%;
+  z-index: -1;
+  background: url(../img/mount-fuji.png) center/cover no-repeat;
+  filter: blur(6px);
+  opacity: 0.5;
+}
+
+.about__intro{
+  margin-bottom: 5%;
+}
+
+
+.about-wrapper__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-wrapper__list__item {
+  position: relative;
+  width: 30%;
+  height: 40vh;
+  margin-top:10%;
+  z-index: 2;
+  background: white;
+  transition: all 0.3s ease-in-out 0s;
+  cursor: pointer;
+  box-shadow: 10px 10px 15px rgb(42, 51, 55);
+}
+
+.about-wrapper__list__item:hover {
+  transition: all 0.3s ease-in-out 0s;
+  transform:scale(1.05);
+  opacity: 0.8;
+}
+
+.about-wrapper__list__item::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  transition: all 0.3s ease-in-out 0s;
+  background: url(../img/worker.png) center/cover no-repeat;
+  clip-path: polygon(100% 0, 0% 0%,  0% 65%, 100% 40%  );
+}
+
+.__link {
+  position: absolute;
+  top: 43%;
+  left:50%;
+  transform: translate(-50%, 50%);
+}
+
+.about-wrapper__list__item__ttl {
+  margin-bottom: 5%;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.business-wrapper {
+  margin-top: 5%;
+
+}
+.business-wrapper__.inner {
+  margin-top:15%;
+  width:100%
+}
+
+.business-wrapper__intro {
+  width:100%;
+}
+
+.business-wrapper__intro__intro{
+  width: 32rem;
+}
+.business-wrapper__body {
+ width:100%;
+ height:120vh;
+}
+.business-wrapper__body__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.business-wrapper__body__list__item {
+  position: relative;
+  width: 45%;
+  height: auto;
+  overflow: hidden;
+  box-shadow: 10px 10px 20px rgb(174, 182, 245);
+  margin: 10% 0;
+}
+
+.business-wrapper__body__list__item.__business2 {
+  bottom:20rem;
+}
+
+.business-wrapper__body__list__item.__business3 {
+  bottom:25rem;
+  margin-left: 55%;
+ margin-bottom:10%;
+}
+
+.business-wrapper__body__list__item__img {
+  position: relative;
+  width: 100%;
+  height: 60vh;
+  z-index: -1;
+}
+
+.business-wrapper__body__list__item__img::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height:100vh;
+  background: white;
+  top: 40%;
+  right: -92%;
+  transform: translate(-40%, -50%) rotate(10deg);
+}
+
+.business-wrapper__body__list__item__img.__business {
+  background: url(../img/airplane.png) no-repeat center;
+  background-size: cover;
+}
+
+.business-wrapper__body__list__item__txt{
+ width: 40%;
+ position: absolute;
+ top: 50%;
+ left: 62%;
+ font-size: 1.5rem;
+ transform: translate(-10%, -50%)
+}
+
+.business__btn a:hover {
+  color: rgb(66, 9, 66);
+  background: rgb(225, 77, 236);
+  transition: 0.6s;
+}
+
+.business__btn a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: rgb(66, 9, 66);
+  color: white;
+  font-size: 1.3rem;
+  font-weight: 650;
+  text-align: center;
+  border-radius: 10px;
+}
+.business__btn {
+  position: absolute;
+  top: 80%;
+  left: 28%;
+  width: 20rem;
+  line-height: 3.5;
+  transform: translate(-50%, 50%);
+}
+
+.news { 
+  background-color: rgb(230, 250, 230);
+  width: 100%;
+  height: auto;
+}
+
+.news .ttl {
+  margin-top: 5%;
+  padding-top:8%;
+  margin-bottom: 20%;
+}
+
+.news-wrapper .newsBG {
+  width: 100%;
+  height:45%;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  filter: blur(3px)
+}
+
+.news-wrapper .newsBG img {
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+  background-position: center;
+
+}
+.news-wrapper__body__list {
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.news-wrapper__body__list__item {
+  position: relative;
+  width: 30%;
+  height: 45vh;
+  z-index: 2;
+  background:rgb(252, 192, 221);
+  box-shadow: 10px 10px 20px rgb(65, 83, 65);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.news-wrapper__body__list__item:hover {
+  transition: all 0.3s ease-in-out 0s;
+  transform: scale(0.95);
+  opacity: 0.8;
+}
+
+.news-wrapper__list__item::before {
+  position:absolute;
+  content: "";
+  width: 30%;
+  height: 100%;
+  z-index: -1;
+  transition: all 0.3s ease-in-out 0s;
+ 
+}
+
+.news-wrapper__body__list__item__txt {
+  padding:  0 5%;
+}
+
+.news-wrapper__body__list__item__txt__date {
+  margin: 5% 0;
+  font-size: 1.2rem;
+  line-height: 1;
+}
+
+.news-wrapper__body__list__item__txt__ttl {
+  position: relative;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  margin-bottom: 2.5%;
+}
+
+/*cssで画像のサイズを変える場合*/
+/*.news-wrapper__body__list__item__img img{
+  width: 100%;
+}*/
+.jobs{
+  width:100%;
+  height: auto;
+
+}
+.jobs-wrapper {
+  width: 80%;
+  height:auto;
+  align-items: center;
+}
+
+.jobs-wrapper__intro {
+  margin-bottom: 5%;
+}
+
+.jobs-wrapper__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.jobs-wrapper__list__item {
+  position: relative;
+    width: 30%;
+    height:45vh;
+    z-index: 2;
+    background: #fff;
+    transition: all 0.3s ease-in-out 0s;
+    cursor: pointer;
+    box-shadow: 10px 10px 20px rgb(60, 65, 117);
+}
+
+.jobs-wrapper__list__item:hover {
+  transition: all 0.3s ease-in-out 0s;
+  transform: scale(0.9);
+  opacity: 0.8;
+}
+
+.jobs-wrapper__list__item::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  transition: all 0.3s ease-in-out 0s;
+  background: url(../img/view2.png) center/cover no-repeat;
+  clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50% );
+}
+
+.jobs-wrapper__list__item__ttl {
+  margin-bottom: 5%;
+  font-size: 2.5rem;
+  letter-spacing: 10px;
+  font-weight: 600;
+  color: white;
+  text-align: center;
+  margin-top: 40%;
+  
+}
+
+.contact {
+  width: 100%;
+  height:65vh;
+  background:linear-gradient(to bottom, rgb(255, 196, 230), white);
+  padding-bottom: 3%;
+  
+}
+.contact-wrapper {
+  width:80%;
+}
+
+.contact-wrapper__intro {
+  padding-top: 3%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1024px) {  
+  .__PC {
+    display: inline-block;
+  }
+
+  .__tab {
+    display: none;
+  }
+
+  .__sp {
+    display: none;
+  }
+ 
+    .body {
+    overflow-x: hidden;
+  
+    }
+   
+    
+   .top-wrapper__left {
+     width: 50%;
+     height: 50vh;
+     position: relative;
+   }
+      
+    .top-wrapper__left__circle {
+      width: 100%;
+      height: 40%;
+      margin-top: 80%;
+      transform: translate(0%,50%);
+    }
+  
+    .top-wrapper__left__ttl h1 {
+      width: 100%;
+      font-size: 3rem;   
+      padding-top:13rem; 
+      transform: translate(20%, -50%);
+    }
+  
+    .top-wrapper__right__circle {
+      width: 100%;
+      height: 40%;
+      margin-top:40rem;
+      transform: translate(-15%,50%);
+    }
+  
+   .top-wrapper__right__ttl h2 {
+      font-size: 1.5rem;
+      font-weight: 70;
+      margin-top: -3%;
+      line-height: 1.5rem;
+      transform: translate(10%,-50%);
+    }
+  
+   .top-wrapper__right__ttl h3 {
+      font-size: 1.5rem;
+      font-weight: 100;
+      padding-top: 4%;
+      transform: translate(0%,50%);
+    }
+
+.about-wrapper__list__item {
+  width: 250px;
+  height:273px;
+}
+
+.about-wrapper__list__item__ttl {
+  margin-bottom: 5px;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.__link {
+  width:8rem;
+ 
+}
+
+.business-wrapper {
+  height: 70vh;
+  margin-top: 5rem;
+}
+
+.business-wrapper__intro__intro {
+  width:25rem;
+}
+.business-wrapper__body__list__item__img { 
+  width:27vh;
+  height: 25vh;
+}
+
+.business-wrapper__body__list__item__txt {
+  font-size: 1rem;
+ 
+}
+
+.business__btn {
+  top:80%;
+  transform: translate(-50%, 60%);
+}
+
+.news-wrapper__body__list__item {
+  height:20vh;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.news-wrapper__body__list__item__txt__ttl{
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.jobs-wrapper__list__item{
+  height:auto;
+}
+
+.jobs-wrapper__list__item__ttl { 
+  font-size: 2rem;
+  padding-bottom: 30%;
+  letter-spacing: 3px;
+}
+.contact {
+  height: 30vh;
+}
+}
+
+
+@media screen and (max-width: 768px) {
+  .__PC {
+    display: none;
+  }
+
+  .__tab {
+    display: inline-block;
+  }
+
+  .__sp {
+    display: none;
+  }
+  .top-wrapper {
+    width: 100%;
+   }
+  .top-wrapper__left__ttl h1 {
+      width: 100%;
+      font-size: 2.5rem;   
+      padding-top:10rem; 
+      transform: translate(20%, -50%);
+  
+    }
+  
+   .top-wrapper__right__circle {
+      width: 100%;
+      height: 40%;
+      margin-top:30rem;
+      transform: translate(-30%,50%);
+    }
+  
+   .top-wrapper__right__ttl h2 {
+      font-size: 1.2rem;
+      font-weight: 70;
+      margin-top: -3%;
+      line-height: 1.5rem;
+      transform: translate(-20%,-50%);
+    }
+  
+   .top-wrapper__right__ttl h3 {
+      font-size: 1.2rem;
+      font-weight: 100;
+      padding-top: 4%;
+      transform: translate(-20%,50%);
+    }
+   .about-wrapper__list {
+    display:list-item;
+    justify-content: space-between;
+   }
+
+   .about::before{
+    top: 20rem;
+    height: 30rem;
+   }
+   .about-wrapper__list__item.__about2{
+    margin-top: -22%;
+    left: 40%;
+    transform: translate(50%, -50%);
+   }
+   .about-wrapper__list__item.__about3 {
+    margin-top:5%;
+    left: 10%;
+    transform: translate(50%, -30%);
+   }
+   
+   .business-wrapper__intro__intro {
+    width: 20rem;
+   }
+   .business-wrapper__body__list__item__txt {
+    font-size: 0.8rem;
+   }
+   
+   .business-wrapper__body__list__item.__business3{
+    margin-top: 5rem;
+   }
+   .business__btn {
+    padding-top: 2rem;
+    margin-left:22%;
+   }
+   
+   .news {
+    margin-top: 5rem;
+   }
+
+   .news-wrapper__body__list__item {
+    width:40vh;
+    height: 23vh;
+   }
+   .news-wrapper__body__list__item.__news1 {
+   transform: translate(20%, -20%);
+   }
+
+   .news-wrapper__body__list__item.__news2 {
+    left: 10%;
+    transform: translate(50%, -20%);
+   }
+
+   .news-wrapper__body__list__item.__news3 {
+    margin-top:30%;
+    transform: translate(-20%, 50%);
+   }
+
+   .news-wrapper__body__list__item__txt__ttl {
+    font-size:15px;
+   }
+   .news.btn {
+    margin-left: -5%;
+    margin-top: -10%;
+    padding-bottom:20%;
+   }
+
+   .jobs-wrapper__list__item {
+    width: 45%;
+    height: 40%;
+   }
+
+   .jobs-wrapper__list__item.__jobs1 {
+    transform: translate(0%, 50%);
+    margin-top: 20%;
+   }
+
+   .jobs-wrapper__list__item.__jobs2 {
+     transform: translate(0%, 0%);
+     
+  }
+
+  .jobs-wrapper__list__item.__jobs3 {
+   transform: translate(0%, 50%);
+   margin-top:20%;
+  }
+
+  .btn {
+    padding-top: 10%;
+  }
+
+  .contact {
+    height: 40vh;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  .__pc {
+    display: none;
+  }
+
+  .__tab {
+    display: none;
+  }
+
+  .__sp {
+    display: inline-block;
+  }
+
+
+  .top-wrapper__left__ttl h1{
+    font-size: 1.5rem;
+    padding-bottom: 5rem;
+  }
+
+  .top-wrapper__left__circle {
+    width: 130%;
+    transform: translate(-15%, 30%);
+  }
+
+  .top-wrapper__left__ttl h1 {
+   transform: translate(0%, -50%);
+   margin-top: -35%;
+   margin-left:20%;
+    text-shadow: 2px 2px white, -2px -2px white, -2px 2px white, 2px -2px white, 2px 0px white, -2px 0px white; 
+  }
+
+ .top-wrapper__right__circle {
+  width: 130%;
+  transform: translate(0%, 100%);
+  margin-left: -30%;
+  margin-top:100%;
+ } 
+
+ .top-wrapper__right__ttl h2 {
+  font-size: 0.7rem;
+  transform: translate(-15%, 50%);
+  margin-top: 1%;
+
+ }
+
+ .top-wrapper__right__ttl h3 {
+  font-size: 0.8rem;
+  transform: translate(0%, 50%);
+  margin-top: 12%;
+  margin-left: -10%;
+ }
+
+ .about-wrapper__list__item.__about1  {
+ margin-left: 7%;
+} 
+
+.about-wrapper__list__item.__about2 {
+  transform: translate(-50%, 50%);
+  margin-left:10%;
+}
+
+.about-wrapper__list__item.__about3 {
+  transform: translate(0%, 50%);
+  margin-left: -2%;
+  margin-top:25%;
+  margin-bottom: 20%;
+}
+.business {
+  margin-top: 55%;
+  width: 100%;
+  height: 180vh;
+}
+
+.business-wrapper.__inner {
+  width: 100%;
+}
+
+.business-wrapper__intro__intro {
+  width: 100%;
+}
+
+.business-wrapper__intro__intro .txt {
+  font-size: 1rem;
+  margin-left: 2rem;
+  margin-bottom: 6rem;
+}
+.business-wrapper__body__intro {
+ width:100%;
+
+}
+
+.business-wrapper__body__list {
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.business-wrapper__body__list__item {
+  width:100%;
+  height: 30vh;
+}
+
+.business-wrapper__body__list__item__img { 
+ width: 100%;
+ height: 100%;
+}
+
+.business-wrapper__body__list__item__txt {
+  font-size: 1px;
+}
+
+.business-wrapper__body__list__item.__business1 {
+ 
+  margin-top:5rem;
+  margin-bottom: 15rem;
+ 
+  transform:translate(0%, -60%);
+}
+
+.business-wrapper__body__list__item__img__business
+
+.business-wrapper__body__list__item.__business2 {
+  font-size: 1rem;
+  padding-top: 10rem;
+  margin-bottom:10rem;
+ 
+}
+
+.business-wrapper__body__list__item.__business3 {
+  font-size: 1rem;
+  transform: translate(-27%, 20%);
+}
+
+.business__btn {
+  margin-top: 5rem;
+}
+
+.news {
+  width: 100%;
+}
+.news-wrapper{
+  width: 80%;
+}
+.news-wrapper__body__list {
+  flex-direction: column;
+}
+
+.news-wrapper__body__list__item {
+  width: 100%;
+  height: auto;
+}
+.news-wrapper__body__list__item.__news1 {
+  transform: translate(0%, -20%);
+
+}
+
+.news-wrapper__body__list__item.__news2 {
+  transform: translate(-10%, -25%);
+}
+
+.news-wrapper__body__list__item.__news3 {
+  transform: translate(0%, -50%);
+  margin-bottom: -30%;
+}
+
+.news-wrapper__body__list {
+ flex-direction: column; 
+}
+
+.jobs-wrapper__list {
+  flex-direction: column;
+  align-items: center;
+}
+
+.jobs-wrapper__list__item {
+  width: 100%;
+  height: auto;
+}
+
+.jobs-wrapper__list__item.__jobs1 {
+  transform: translate(0%, -50%);
+  margin-top: 12rem;
+}
+
+.jobs-wrapper__list__item.__jobs2 {
+  transform: translate(0%, -20%);
+}
+
+.jobs-wrapper__list__item.__jobs3 {
+  transform: translate(0%, -10%);
+}
+
+.footer{
+  margin-top: 50%;
+}
+.footer-wrapper__logo {
+  width: 80%;
+}
+
+}

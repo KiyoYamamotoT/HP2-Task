@@ -1,0 +1,148 @@
+
+.company-wrapper{
+  background-color: rgb(253, 237, 251);
+  width: 100%;
+  height:auto;
+ padding-bottom: 3%;
+}
+
+.company-wrapper .inner {
+ width: 80%;
+ height: auto;
+
+ 
+}
+
+.company-wrapper__block {
+ 
+  background-color: rgb(243, 238, 238);
+  border-radius: 10px;
+  box-shadow: 10px 10px 20px  rgb(220, 170, 178);
+  padding: 7.5%;
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  border: solid 2px rgb(223, 197, 199);
+ 
+ }
+
+.company-wrapper__block__list {
+ width: 42.5%; 
+}
+
+.company-wrapper__block__list__item {
+  margin-bottom: 7.5%;
+}
+
+.company-wrapper__block__list__item__ttl {
+  font-size: 2rem;
+  display: inline-block;
+} 
+
+.company-wrapper__block__list__item__txt {
+  font-size: 1.5rem;
+  display: inline-block;
+}
+
+.access-wrapper__map {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.access-wrapper__map__block {
+  width: 45%;
+}
+
+.access-wrapper__map__block iframe {
+  width: 100%;
+  margin-bottom:10%;
+}
+
+.access-wrapper__block__one {
+  width: 100%;
+  margin-bottom: 7.5%;
+  margin-left: 20%;
+}
+
+.access-wrapper__map__block__one:nth-of-type(2) {
+  margin-bottom:unset;
+}
+
+.access-wrapper__map__block__one__ttl {
+  margin-bottom: 2%;
+  font-size: 1.5rem;
+}
+
+.access-wrapper__map__block__one__txt {
+ font-size: 1.1rem;
+ margin-bottom: 3%;
+ 
+}
+
+@media screen and (max-width: 768px) {
+  .__PC {
+    display: none;
+  }
+
+  .__tab {
+    display: inline-block;
+  }
+
+  .__sp {
+    display: none;
+  }
+
+  .company-wrapper__block {
+    width: 60%;
+   flex-direction: column; 
+   margin-left: 10%;
+   margin-top: 5%;
+  }
+
+  .company-wrapper__block__list {
+    width: 100%;
+  }
+  
+}
+
+
+ @media screen and (max-width: 480px) {
+   .__pc {
+     display: none;
+   }
+
+   .__tab {
+     display: none;
+   }
+
+   .__sp {
+     display: inline-block;
+   }
+ .company-wrapper__block {
+  width: 70%;
+
+ }
+ .company-wrapper__block__list__item__ttl {
+  font-size: 1.5rem;
+ }
+
+ .company-wrapper__block__list__item__txt {
+  font-size:1rem;
+  font-weight: bold;
+ }
+
+ .access-wrapper__map {
+  flex-direction: column;
+  margin-top: 10%;
+ }
+
+ .access-wrapper__map__block {
+  width: 100%;
+ }
+ }
+
+
+
+
+
