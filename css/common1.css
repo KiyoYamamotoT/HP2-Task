@@ -44,7 +44,7 @@ li {
 }
 
 .header-wrapper__nav {
-  width: 70%;
+  width:70%;
 }
 
 .header-wrapper__nav__list {
@@ -58,7 +58,7 @@ li {
   font-size: 1rem;
   font-weight: bold;
   padding: 0 2.5%;
-  border-right: solid 3px rgb(248, 147, 240);
+  border-left: solid 3px rgb(248, 147, 240);
 }
 
 .header-wrapper__nav__list__item a {
@@ -69,9 +69,9 @@ li {
   color: rgb(248, 147, 240)
 }
 
-.header-wrapper__nav__list__item:last-child {
-  border-right: none;
-}
+/*.header-wrapper__nav__list__item:last-child {
+  border-left: solid 3px rgb(248, 147, 240);
+}*/
 
 .header .drawer {
   visibility: hidden;
@@ -288,6 +288,7 @@ padding-top: 6%;
  }
 
  header .header-wrapper__nav__list {
+  width: 25%;
    display: block;
    position: absolute;
    top: 50%;

@@ -66,6 +66,17 @@
   .__sp {
     display: none;
   }
+
+  .topic-wrapper__all__block__list{
+    width: 90%;
+  }
+
+  .topic-wrapper__all__block__list__item {
+    line-height: 5;
+  }
+  .topic-wrapper__all__block__list__item span{
+    font-size: 1.2rem;
+  }
 }
 
 

@@ -58,6 +58,7 @@
   
   .news-wrapper__block__list {
     flex-direction: column;
+    margin-bottom: -10%;
   }
   .news-wrapper__block__list__item {
     width: 100%;
@@ -76,6 +77,7 @@
 
   .det {
     margin-left:33%;
+  
   }
  }
 
@@ -103,7 +105,8 @@
   .news-wrapper__block__list__item__img {
     width: 100%;
     transform: translate(30%, -50%);
-    margin-top: -25rem;
+    margin-top: -24rem;
+    margin-left: -13%;
   }
 
   .txt{
@@ -113,10 +116,12 @@
   }
 
   .det {
+    font-size: 1.2rem;
     width: 60%;
     margin-left: 3%;
     transform: translate(0%, 50%);
     margin-top: 10%;
+   
   }
 }
 

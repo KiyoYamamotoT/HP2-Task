@@ -21,7 +21,7 @@
   padding: 7.5%;
   display: flex;
   justify-content: space-around;
-  align-items: baseline;
+  align-items: center;
   border: solid 2px rgb(223, 197, 199);
  
  }
@@ -94,14 +94,19 @@
   }
 
   .company-wrapper__block {
-    width: 60%;
+    width: 70%;
    flex-direction: column; 
-   margin-left: 10%;
+   margin-left: 7%;
    margin-top: 5%;
   }
 
   .company-wrapper__block__list {
     width: 100%;
+    padding-left:10%;
+  }
+
+  .company-wrapper__block__list__item__txt {
+    font-size: 2rem;
   }
   
 }
