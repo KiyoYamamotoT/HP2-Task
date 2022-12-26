@@ -89,6 +89,11 @@
     display: inline-block;
   }
 
+  header .header-wrapper__nav__list__item a{
+    font-size: 10px;
+    font-weight: lighter;
+    line-height: 2;
+  }
   .top-wrapper {
     width:100%;
     height: auto;

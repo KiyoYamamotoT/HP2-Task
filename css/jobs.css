@@ -18,12 +18,17 @@
 
 .jobs-wrapper__block__list__item {
   width: 35%;
-  height: 55vh;
+  height: auto;
   background: rgb(247, 246, 246);
   box-shadow: 10px 10px 10px rgb(146, 93, 102);
   margin-top: 5%;
   padding-top: 3%;
-  padding-left: 4%
+  padding-left: 4%;
+  padding-bottom: 3%
+}
+
+.jobs-wrapper__block__list__item img {
+ margin-left: -3%;
 }
 
 .Ttl {
@@ -60,17 +65,16 @@
 
   .jobs-wrapper__block__list__item {
     width:36%;
-    height: 30vh;
+    height: auto;
     padding-left: 10%;
     margin-bottom: 3%;
   }
 
   .jobs-wrapper__block__list__item img {
    /* transform: translate(-8%, -10%);*/
-   width: 25vh;
-   height: 18vh;
-   margin-top: -3%;
-   margin-left: -22%;
+   width: 100%;
+   height: auto;
+   margin-left: -14%;
   }
 
   .Ttl {
@@ -106,13 +110,13 @@
 
   .jobs-wrapper__block__list__item {
     width: 80%;
-    height: 50vh;
+    height: auto;
   }
 
   .jobs-wrapper__block__list__item img {
     width: 95%;
-    height: 32vh;
-    padding-left: 18%;
+    height: auto;
+    padding-left: 10%;
     padding-top: 6%;
     /*transform: translate(-2.5%, 0%);*/
   }

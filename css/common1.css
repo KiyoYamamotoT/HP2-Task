@@ -352,6 +352,12 @@ padding-top: 6%;
     display: inline-block;
   }
 
+    header .header-wrapper__nav__list__item a {
+      font-size: 0.8rem;
+      font-weight: lighter;
+      line-height: 2;
+    }
+
   .footer-wrapper__list {
     flex-direction: column;
     margin-left: 38%;
