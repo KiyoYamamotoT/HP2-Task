@@ -135,7 +135,7 @@
 }
 
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 420px) {
   .__pc {
     display: none;
   }
@@ -149,8 +149,9 @@
   }
 
   .jobs-wrapper__block__list__item {
-    width: 90%;
-    height:60vh;
+    /*width: 99%;
+    height:48vh;*/
+    margin-bottom: 10%;
   }
 
   .jobs-wrapper__block__list__item img {
@@ -158,11 +159,14 @@
   }
 
    .Ttl {
-    font-size: 1.2rem;
+    width: 100%;
+    font-size: 1.1rem;
     margin-top: 5%;
   }
 
   .det {
     margin-top: 4%;
+    width: 100%;
+   
   }
 }

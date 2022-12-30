@@ -112,7 +112,7 @@
 }
 
 
- @media screen and (max-width: 480px) {
+ @media screen and (max-width: 420px) {
    .__pc {
      display: none;
    }
@@ -129,7 +129,7 @@
 
  }
  .company-wrapper__block__list__item__ttl {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
  }
 
  .company-wrapper__block__list__item__txt {
