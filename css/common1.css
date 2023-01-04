@@ -110,11 +110,11 @@ padding-top: 6%;
 }
 
 .btn {
-  width: 18rem;
+  width: 40%;
   margin: 0 auto;
   line-height: 4;
   margin-top: 8%;
-  padding-bottom: 5%;
+  padding-bottom:8%;
 }
 
 .btn a:hover {
@@ -319,6 +319,9 @@ padding-top: 6%;
    transform: rotate(45deg);
  }
 
+ .btn {
+  width: 50%;
+ }
 
 }
 
@@ -351,13 +354,21 @@ padding-top: 6%;
   .__sp {
     display: inline-block;
   }
+  
+  .header-wrapper__logo  {
+    width: 15rem;
+  }
 
-    header .header-wrapper__nav__list__item a {
+  header .header-wrapper__nav__list__item a {
       font-size: 0.8rem;
       font-weight: lighter;
       line-height: 2;
     }
 
+    .btn {
+      width: 60%;
+    }
+    
   .footer-wrapper__list {
     flex-direction: column;
     margin-left: 38%;

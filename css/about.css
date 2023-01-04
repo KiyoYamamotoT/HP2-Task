@@ -140,12 +140,47 @@
  .access-wrapper__map {
   flex-direction: column;
   margin-top: 10%;
+  margin-left: 5%;
+  width: 90%;
  }
 
  .access-wrapper__map__block {
   width: 100%;
  }
+
  }
+
+ @media screen and (max-width: 320px) {
+   .__pc {
+     display: none;
+   }
+
+   .__tab {
+     display: none;
+   }
+
+   .__sp {
+     display: inline-block;
+   }
+
+
+   .company-wrapper__block__list__item h3 {
+    width: 100%;
+   font-size: 1.1rem;
+   }
+
+   .company-wrapper__block__list__item p {
+    font-size: 0.8rem;
+   }
+
+   .access-wrapper__map__block__one__ttl {
+    font-size: 1.2rem;
+   }
+
+   .access-wrapper__map__block__one__txt {
+    font-size: 1rem;
+   }
+  }  
 
 
 

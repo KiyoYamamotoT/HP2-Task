@@ -179,3 +179,32 @@
   width: 18rem;
  }
 }
+
+@media screen and (max-width: 320px) {
+  .__pc {
+    display: none;
+  }
+
+  .__tab {
+    display: none;
+  }
+
+  .__sp {
+    display: inline-block;
+  }
+
+  .contact-wrapper__form__box__ttl {
+    font-size: 1rem;
+    line-height: 2.5;
+  }
+
+  .contact-btn {
+    width: 90%;
+    margin-top: 20%;  
+  }
+
+  .footer {
+    margin-top: 20%;
+  }
+
+}

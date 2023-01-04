@@ -161,3 +161,26 @@
     width: 80%;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .__pc {
+    display: none;
+  }
+
+  .__tab {
+    display: none;
+  }
+
+  .__sp {
+    display: inline-block;
+  }
+
+  .apply-wrapper__form__box__ttl {
+    font-size: 1rem;
+    line-height: 2.5;
+  }
+
+  .apply .btn {
+    margin-top: 20%;
+  }
+}

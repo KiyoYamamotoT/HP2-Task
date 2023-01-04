@@ -106,7 +106,7 @@
   .ttl {
     padding-top: 6%;
     margin-bottom: 3%;
-    font-size: 1.6rem;
+    font-size:2rem;
   }
   
   .ttl small {
@@ -114,11 +114,12 @@
     padding-right: 12px;
   }
 
+    .btn {
+      width: 80%;
+    }
   .footer-wrapper__logo {
     width: 80%;
   }
   
-  .btn {
-    width: 18rem;
-  }
+  
 }
