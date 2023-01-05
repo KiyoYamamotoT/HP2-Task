@@ -246,12 +246,12 @@
   border-radius: 10px;
 }
 .business__btn {
-  position: absolute;
-  top: 80%;
-  left: 28%;
+  position:relative;
+  top: -75%;
+  left: 10%;
   width: 20rem;
   line-height: 3.5;
-  transform: translate(-50%, 50%);
+  /*transform: translate(-50%, 50%);*/
 }
 
 .news { 
@@ -509,8 +509,8 @@
   width:25rem;
 }
 .business-wrapper__body__list__item__img { 
-  width:27vh;
-  height: 25vh;
+  width:26vh;
+  height: 24vh;
 }
 
 .business-wrapper__body__list__item__txt {
@@ -519,8 +519,9 @@
 }
 
 .business__btn {
-  top:80%;
-  transform: translate(-50%, 60%);
+  top:-28%;
+  margin-left: -6%;
+  /*transform: translate(-50%, 60%);*/
 }
 
 .news-wrapper__body__list__item {
@@ -645,11 +646,11 @@
    }
    
    .business-wrapper__body__list__item.__business3{
-    margin-top: 5rem;
+    margin-top: 6rem;
    }
    .business__btn {
-    padding-top:8%;
-    margin-left:22%;
+    margin-top:-30%;
+    margin-left:15%;
  
    }
    
@@ -744,7 +745,7 @@
   /*transform: translate(-10%, 70%);*/
   }
 
-  .top-wrapper__left__ttl h1 {
+ .top-wrapper__left__ttl h1 {
   /*transform: translate(0%, -50%);*/
    margin-top: -47%;
    margin-left:12%;
@@ -762,7 +763,7 @@
  .top-wrapper__right__ttl h2 {
   font-size: 2%;
   /*transform: translate(-20%, 70%);*/
- margin-left:-4% ;
+margin-left:-4% ;
   width: 60%;
   line-height: 150%;
   margin-top: -6%;
@@ -773,7 +774,7 @@
  .top-wrapper__right__ttl h3 {
   font-size: 2%;
   /*transform: translate(0%, 50%);*/
-  margin-top: -9%;
+ margin-top: -9%;
   margin-left: -6%;
   line-height:250%;
   width: 70%;
@@ -798,14 +799,14 @@
 
 .about-wrapper__list__item.__about3 {
   /*transform: translate(0%, 50%);*/
-  margin-top: 20%;
+ margin-top: 20%;
   margin-left: 0%;
   width: 100%;
 }
 .business {
   margin-top:-10%;
   width: 100%;
-  height: 170vh;
+  height: 70em;
 }
 
 
@@ -833,17 +834,18 @@
   flex-direction: column;
   flex-wrap: nowrap;
   align-items: center;
+ 
   
 }
 
 .business-wrapper__body__list__item {
   width:100%;
-  height: 30vh;
+
 }
 
 .business-wrapper__body__list__item__img { 
  width: 100%;
- height: 100%;
+ height:200px;
 }
 
 .business-wrapper__body__list__item__txt {
@@ -852,7 +854,7 @@
 }
 
 .business-wrapper__body__list__item.__business1 {
-margin-top:-25%;
+  margin-top:-25%;
   margin-bottom: 10rem;
  
   /*transform:translate(0%, -60%);*/
@@ -872,9 +874,11 @@ margin-top:-25%;
 } 
 
 .business__btn {
-margin-top: 20%;
-margin-bottom: 10%;
- width: 50%; 
+ position: relative;
+  margin-top: -24em;
+/*margin-bottom: 10%;*/
+ width: 60%; 
+ margin-left: 10%;
 }
 
 .news {
@@ -951,71 +955,3 @@ margin-bottom: 10%;
 
 }
 
-/*@media (max-width: 330px) {
-  .__pc {
-    display: none;
-  }
-
-  .__tab {
-    display: none;
-  }
-
-  .__sp {
-    display: none;
-  }
-  
-  .top-wrapper__left__ttl {
-    margin-top: -7%;
-  }
-
-  .top-wrapper__right__circle {
-    margin-left:-10%;
-  }
-
-  .top-wrapper__right__ttl h2 {
-    margin-left: -5%;
-    line-height: 1;
-  }
-
-  .top-wrapper__right__ttl h3 {
-    margin-top: -10%;
-    width: 100%;
-    margin-left: -1vw;
-    line-height: 2.5;
-  }
- .business-wrapper__body__list__item__img {
-      width: 100%;
-      height: 100%;
-  }
-
-  .business-wrapper__body__list__item__txt {
-     font-size: 0.1vw;
-     line-height: 1.2;
-  }
-
-  .business__btn {
-    margin-top: 70%;
-  }
-
-  .news {
-    margin-top: 80%;
-  }
-  
-  .news .btn {
-    width: 90%;  
-  }
-
-  .jobs .btn {
-    width: 90%;
-  }
-  .contact {
-    margin-top: 15%;
-  }
-  .contact .btn {
-    width: 90%;
-  }
-
-  .footer {
-    margin-top: 70%;
-  }
-}*/
