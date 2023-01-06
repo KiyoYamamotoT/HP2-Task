@@ -66,9 +66,15 @@
   .__sp {
     display: none;
   }
+  .topic-wrapper__all {
+    width: 100%;
+  }
 
+  .topic-wrapper__all__block {
+    width: 80%;
+  }
   .topic-wrapper__all__block__list{
-    width: 90%;
+    width: 100%;
   }
 
   .topic-wrapper__all__block__list__item {

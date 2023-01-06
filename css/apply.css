@@ -43,7 +43,7 @@
 .apply-wrapper__form__box__ttl {
   width: 40%;
   height: 100%;
-  font-size: 1.15rem;
+  font-size: 2vw;
   position: relative;
 }
 
@@ -64,15 +64,16 @@
 
 .apply-btn {
   width: 20rem;
-  height: 5rem;
+  height: 10vh;
   display: block;
   color: #fff;
   background: rgb(66 9 66);
   cursor: pointer;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   font-weight: 600;
   text-align: center;
   border-radius: 10px;
+ 
 }
 
 .apply-btn:hover {
@@ -138,6 +139,7 @@
   
   .apply-wrapper__form__box__ttl {
    width: 50%;
+   margin-bottom: 2%;
   }
 
   .apply-wrapper__form__box__ttl::after {
@@ -159,28 +161,9 @@
 
   .apply-btn {
     width: 80%;
+    margin-top: 15%;
+    padding-bottom: 30%;
   }
 }
 
-@media screen and (max-width: 320px) {
-  .__pc {
-    display: none;
-  }
 
-  .__tab {
-    display: none;
-  }
-
-  .__sp {
-    display: inline-block;
-  }
-
-  .apply-wrapper__form__box__ttl {
-    font-size: 1rem;
-    line-height: 2.5;
-  }
-
-  .apply .btn {
-    margin-top: 20%;
-  }
-}
