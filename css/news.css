@@ -118,6 +118,7 @@
 
   .news-wrapper__block__list__item__img img {
     width: 80%;
+    height: 33vh;
   
     /*transform: translate(30%, -50%);*/
   margin-top: 10%;
@@ -179,7 +180,7 @@
   .news-wrapper__block__list__item__img img{
    /*transform: translate(-20%, 100%);*/
    width: 85%;
-   height:25vh;
+   height:24vh;
   margin-top: 2rem;
    margin-left:7%;
   
